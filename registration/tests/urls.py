@@ -78,3 +78,4 @@ urlpatterns = patterns('',
                            TemplateView.as_view(template_name='registration/test_template_name.html'),
                        (r'', include('registration.backends.default.urls')),
                        )
+)
